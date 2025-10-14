@@ -2,7 +2,7 @@
 
 **Date of Creation:** 14/10/2025
 
-**Link to Repository:** https://github.com/TomADavis/Pokemon-Battle-Predictor
+**Link to Repository:** https://github.com/TomADavis/Predictive-Pokemon-Battle-Engine
 
 ---
 
