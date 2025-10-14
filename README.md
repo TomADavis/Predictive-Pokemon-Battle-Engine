@@ -38,6 +38,18 @@ Now that I've built this predictor, I'm really excited to go back to my old A-Le
 
 ---
 
+### 🧠 What I Learned
+
+* **Pandas Best Practices:** A major takeaway was the importance of writing safe and explicit Pandas code. I learned the critical difference between a **View and a Copy**, and why using `.copy()` is essential to prevent unintended changes to original DataFrames. I also learned the modern, safer way to handle operations like `fillna` by assigning the result back to the column instead of using `inplace=True`.
+
+* **The Power of Feature Engineering:** The most creative part of the project was transforming a simple list of Pokémon stats into a rich dataset of battle matchups. I discovered clever techniques like using a temporary `'key'` column to create a Cartesian product, which was a great problem-solving insight.
+
+* **Effective Data Visualization:** I gained a much deeper appreciation for the relationship between Seaborn and Matplotlib. I learned how high-level parameters like `hue` in Seaborn can simplify complex plotting tasks that would require manual loops and data filtering in pure Matplotlib.
+
+* **Core Machine Learning Principles:** This project solidified my understanding of the machine learning workflow. I now understand *why* `train_test_split` is non-negotiable for honest model evaluation. Furthermore, learning to interpret a **confusion matrix** was a real eye-opener, as it provides so much more detail about a model's performance than a simple accuracy score.
+
+---
+
 ### 🛠️ Prerequisites
 
 1.  **Python 3:** To check if you have it, open your terminal or Command Prompt and type:
